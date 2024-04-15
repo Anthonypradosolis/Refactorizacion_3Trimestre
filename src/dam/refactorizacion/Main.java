@@ -3,6 +3,9 @@ package dam.refactorizacion;
 public class Main {
     /**
      * metodo para devolver la puntuacion de tenis
+     * @param pointsPlayer1 puntos del primer jugaodr
+     * @param pointsPlayer2 puntos del segundo jugador
+     * @return puntuacion
      */
     public static String getScore(int pointsPlayer1, int pointsPlayer2) {
         String score = "";
